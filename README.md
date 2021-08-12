@@ -15,7 +15,13 @@ The other selection methods assume the code run over Google Colab platform. <br 
 The training notebook assume the code run over Kaggle editor. In training we used own dataset - mymoet by Ido Ikar (public in kaggle).
  <br />
   <br />
-There are two inference notebook. 'inference' assume you run on Kaggle platform and 'inference_colab' assume you run on colab or local. (You can run it also on kaggle, but it will download unnecessary data). 
+There are two inference notebook. 'inference' assume you run on Kaggle platform and 'inference_colab' assume you run on colab or local. (You can run it also on kaggle, but it will download unnecessary data).
+ For execute any of the following files required to:<br />
+&emsp; Create new directory called: 'Monet' under the directory 'sample_data' .<br />
+   &emsp;  Execute Upload on 'Monet' directory for all the images from 'monet_jpg' directory.<br />
+   &emsp;  Execute Upload on 'sample_data' directory for the file 'Functions.py'.<br />
+&emsp; In file 'Functions.py' change the 'path' variable to 'sample_data/Monet'.<br />
+
  <br />
 The inference notebook download the model and load the weights automatically. the model weights can be found in https://drive.google.com/drive/u/0/folders/1x-WYimV_rUizK2zCwC1W-feQTw2vCqXH
  <br />
